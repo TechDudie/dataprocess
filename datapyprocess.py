@@ -23,9 +23,3 @@ def median(array):
         return array[index]
     else:
         return (array[len(a) / 2] + array[len((a / 2) - 1)]) / 2
-data = [3,5,7,8,9]
-print(min(data))
-print(max(data))
-print(sum(data))
-print(mean(data))
-print(median(data))
